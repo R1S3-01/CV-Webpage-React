@@ -1,8 +1,6 @@
 # dependencies
 node_modules/
 
-# production build output
-build/
 
 # misc
 .DS_Store
