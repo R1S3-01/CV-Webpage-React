@@ -58,6 +58,19 @@ function App() {
         </ul>
       </motion.section>
 
+      <motion.section initial={{ x: 100, opacity: 0 }} animate={{ x: 0, opacity: 1 }}>
+        <h2 className="text-2xl font-semibold mb-4">Experience</h2>
+        <div className="space-y-2">
+          <h3 className="font-medium">Technical Engineer • Aspects of Glass Limited • May 2021 – Present</h3>
+          <ul className="list-disc pl-6 space-y-1">
+            <li>Designing, developing and testing new software solutions for payroll, inventory management and pricing.</li>
+            <li>Technical support both hardware and software related.</li>
+            <li>Establishing and implementing new software.</li>
+            <li>Aiding with general business operations.</li>
+          </ul>
+        </div>
+      </motion.section>
+
       <motion.section initial={{ scale: 0.9, opacity: 0 }} animate={{ scale: 1, opacity: 1 }}>
         <h2 className="text-2xl font-semibold mb-4">Education</h2>
         <ul className="list-disc pl-6 space-y-2">
