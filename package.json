@@ -2,6 +2,7 @@
   "name": "joseph-portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://r1s3-01.github.io/CV-Webpage-React",
   "dependencies": {
     "framer-motion": "^11.0.0",
     "lucide-react": "^0.263.0",
